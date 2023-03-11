@@ -1,5 +1,16 @@
 # Wedding Photography Website
 
+## To-do
+- A lot
+- change logo file name
+- implement page translation script
+- rename and clean-up css classes
+- expanding gallery photos (open in a viewer when clicked)
+
+## Problems
+- home page photo not resizing / not responsive
+- jumpy menu
+
 ## 1. Purpose
 - A website to advertise photography services.
 - Focused on wedding photography
@@ -34,5 +45,5 @@
 - Contact form requires a backend for storing messages & and automatic email forwarding
     
 ### 3.3 Graphics & styling
-- Main brand logo
+- Main brand logo (*.svg)
 - Color theme (three main colors)

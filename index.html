@@ -3,9 +3,12 @@
 <head>
 	<title>Static Photosite</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/translate.js"></script>
+    <script src="js/index.js"></script>
 </head>
-<body class="home">
+<body class="home" onload="translate('en','lng-tag')">
     <header id="stickyheader">
         <div>
             <a href="index.html">
@@ -15,7 +18,7 @@
         <div>
             <li class="listtitle">
             <div class="titleelement">
-                <h1 class="title"><a href="index.html" class="linknone">Mikael R. Photography</a></h1>
+                <h1 class="title"><a href="index.html" class="linknone" lng-tag="title"></a></h1>
             </div>
             <div class="titleelement">
                 <h3 class="subtitle">Landscape and Portrait Photography</h3>
@@ -27,6 +30,8 @@
             <a href="landscape.html" class="menuitem">Landscape</a>
             <a href="about.html" class="menuitem">About</a>
             <a href="blog.html" class="menuitem">Blog</a>
+            <a class="menuitem lng" id="enTranslator" href="javascript:void(0);">EN</a>
+            <a class="menuitem lng" id="fiTranslator" href="javascript:void(0);">FI</a>
         </div>
     </header>
     <div class="headerspacer"></div>
