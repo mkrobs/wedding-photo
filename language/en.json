@@ -3,7 +3,7 @@
 
     "title-sub": "Wedding and Portrait Photography",
 
-    "photo": "Photography",
+    "title-low": "&nbsp;M & M Photography&nbsp;",
 
     "home": "Home",
 
@@ -23,5 +23,7 @@
 
     "event": "Events",
 
-    "footer": "2023 Copyright M&M Photography © All rights reserved."
+    "footer": "2023 Copyright M&M Photography © All rights reserved.",
+
+    "c-button": "Contact Us!"
 }

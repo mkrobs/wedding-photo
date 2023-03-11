@@ -1,29 +1,53 @@
 # Wedding Photography Website
 
+## Photos
+- Home Banner: turkey-1 (51, 39, *17)
+- Wedding: turkey-2 (142, 140, *131, )
+- Portrait: winter (29, 27, 23, 19, 7, *8)
+- Couple:
+- Event: 
+
 ## To-do
 - a lot
 - ~~change logo file name~~
 - ~~implement page translation script~~
-- save the language selection for reloading the page
+- ~~save the language selection for reloading the page~~ (maybe not needed)
 - ~~rename and clean-up css classes~~
-- set lng-tag for home page
-- responsive menu -> becomes hamburger + drop down menu in smaller screensize
-- select photos for the home page
-- expanding gallery photos (open in a viewer when clicked)
-- create sub pages, when index.html is ready
-- write "about" page
-- create contact form and contact page
-- create pricing page
+- ~~set lng-tags for home page~~
+- ~~add contact button link on homepage~~
+- ~~responsive menu -> becomes hamburger + drop down menu in smaller screensize~~
+- ~~select photos for the home page~~
+
+- add visible titles for photos on homepage
+- add social media buttons
+- write "about" page text
 - define pricing categories
 - create a logo
 - create a color theme
 
+- **when index.html is ready**
+- create sub pages for product categories
+- create contact page and contact form
+- create pricing page
+- create portfolio page
+- create about page
+- portfolio page: expanding gallery photos (open in a viewer when clicked)
+
+- **when pages are ready**
+- create fi and sv variants of the page
+- connect contact form to a backend
+
+### Before publishing
+- clear out unused files
+- Edit photos in detail and color grade
 
 ## Problems
-- home page photo not resizing / not responsive
+- ~~home page photo not resizing / not responsive~~ (background-size: auto)
 - jumpy menu when navigating
-- menu drops out of the header
-- pontential SEO problem for translated pages
+- ~~menu drops out of the header when resizing~~
+- pontential SEO problem for translated pages (change to website.com/lang)
+- things bounce around in the header when changing language
+- menu switches between icon and text when resizing (not a big issue)
 
 ## 1. Purpose
 - A website to advertise photography services.

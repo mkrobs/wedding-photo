@@ -11,3 +11,12 @@ window.onload=function() {
              }
         }
   }
+
+function showMenu() {
+    var x = document.getElementById("navMenu");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+}
