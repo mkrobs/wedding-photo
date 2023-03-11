@@ -1,11 +1,27 @@
 {
     "title": "M&M Photography",
 
-    "subtitle": "Wedding and Portrait Photography",
+    "title-sub": "Wedding and Portrait Photography",
+
+    "photo": "Photography",
 
     "home": "Home",
 
+    "portfolio": "Portfolio",
+
     "about": "About",
 
-    "contact": "Contact"
+    "contact": "Contact",
+
+    "pricing": "Pricing",
+
+    "wedding": "Wedding",
+
+    "couples": "Couples",
+
+    "portrait": "Portraits",
+
+    "event": "Events",
+
+    "footer": "2023 Copyright M&M Photography © All rights reserved."
 }

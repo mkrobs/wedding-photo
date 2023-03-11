@@ -27,7 +27,7 @@ footer {
   margin-top: 40px;
 }
 
-.ftext {
+.footer-text {
   padding: 10px;
 }
 
@@ -72,7 +72,7 @@ a:active {
   padding: 0px 2px;
 }
 
-.headerspacer {
+.header-spacer {
   margin-bottom: 90px;
 }
 
@@ -83,26 +83,26 @@ a:active {
   text-align: center;
 }
 
-.linknone {
+.link-none {
   text-decoration: none;
 }
 
-a.linknone {
+a.link-none {
   font-family: 'Roboto';
   color: black;
 }
 
-a.linknone:hover {
+a.link-none:hover {
   color: black;
   background-color: white;
 }
 
-.subtitle {
+.title-sub {
  margin: 0;
  letter-spacing: 1px;
 }
 
-.listtitle {
+.list-title {
   list-style: none;
   padding: 10px;
 }
@@ -118,7 +118,7 @@ a.linknone:hover {
   
 }
 
-.bannerparallax {
+.banner-parallax {
  
   background-image: url("img/background.jpg");
   min-height: 750px; 
@@ -130,12 +130,12 @@ a.linknone:hover {
 }
 
 @media only screen and (max-device-width: 1366px) {
-  .bannerparallax {
+  .banner-parallax {
     background-attachment: scroll;
   }
 }
 
-.titlecontainer {
+.title-container {
   margin: 100px 0px;
   display: flex;
   flex-wrap: wrap;
@@ -149,20 +149,20 @@ a.linknone:hover {
   padding: 12px 0px 0px 10px;
 }
 
-.titleelement {
+.title-element {
   display: flex;
 }
 
 
 
-.titleelementlow {
+.title-element-low {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
   text-align: center;
 }
 
-.menuelement {
+.menu-element {
   margin: 30px;
   background: white;
   display: flex;
@@ -170,12 +170,27 @@ a.linknone:hover {
   flex-wrap: wrap;
 }
 
-a.menuitem:hover {
+a.menu-item:hover {
     color: #1e87c4;
     background-color: #d6eaf6;
 }
 
-a.menuitem {
+a.menu-item {
+  margin: 5px; 
+  font-family: Garamond, sans-serif;
+  text-align: center;
+  color: black;
+  padding: 5px 3px;
+}
+
+.lang-select {
+  margin: 0px 10px 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.lang-item {
   margin: 5px; 
   font-family: Garamond, sans-serif;
   text-align: center;
@@ -192,7 +207,7 @@ a.menuitem {
     justify-content: center;
 }
 
-.containeralbum {
+.container-album {
   padding: 0px;
   width: 100%;
   font-family: 'Courier New', Courier, monospace;
@@ -203,7 +218,7 @@ a.menuitem {
   justify-content: center;
 }
 
-.secalbum {
+.sec-album {
   width: 100%;
 }
 
@@ -221,7 +236,7 @@ a.menuitem {
 }
 
 
-.bodytext {
+.body-text {
   margin: 10px 10px 0px 10px;
   max-width: 75%;
   height: auto;
@@ -230,14 +245,14 @@ a.menuitem {
   padding-bottom: 300px;
 }
 
-.longtext {
+.long-text {
   max-width: 100%;
   height: auto;
   display: inline-block;
   padding: 10px;
 }
 
-.secphoto {
+.sec-photo {
     margin: 10px 10px 0px 10px;
     max-width: 100%;
     height: auto;
@@ -259,7 +274,7 @@ a.menuitem {
   justify-content: space-between; 
 }
 
-.gcover:hover .photoframe {
+.gcover:hover .photo-frame {
   opacity: 0.7;
 }
 
@@ -274,18 +289,18 @@ a.menuitem {
     transition: .5s ease;
 }
 
-.imgtitle {
+.img-title {
   font-family: 'Noto Mono';
   font-size: 20px;
 }
 
 
-.secphoto.last {
+.sec-photo.last {
    margin-bottom: 10px;
 }
 
 
-.photoframe {
+.photo-frame {
     max-width: 100%;
     max-height: 500px;
     object-fit: contain;
@@ -312,11 +327,11 @@ p {
     
   }
 
-  .secphoto:hover .photoframe {
+  .sec-photo:hover .photoframe {
     opacity: 0.7;
   }
   
-  .secphoto:hover .overlay {
+  .sec-photo:hover .overlay {
     opacity: 0.9;
   }
 

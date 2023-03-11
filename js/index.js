@@ -6,10 +6,17 @@ function translate(lng, tagAttr){
     if(lng == 'en'){
       $("#enTranslator").css('color', '#f4623a');
       $("#fiTranslator").css('color', '#212529');
+      $("#svTranslator").css('color', '#212529');
     } 
     if(lng == 'fi'){
       $("#fiTranslator").css('color', '#f4623a');
       $("#enTranslator").css('color', '#212529');
+      $("#svTranslator").css('color', '#212529');
+    }
+    if(lng == 'sv'){
+      $("#fiTranslator").css('color', '#212529');
+      $("#enTranslator").css('color', '#212529');
+      $("#svTranslator").css('color', '#f4623a');
     }
 }
 $(document).ready(function(){
@@ -20,5 +27,9 @@ $(document).ready(function(){
   //This is id of HTML element (Khmer) with attribute lng-tag
   $("#fiTranslator").click(function(){
     translate('fi', 'lng-tag');
+  });
+  //This is id of HTML element (English) with attribute lng-tag
+  $("#svTranslator").click(function(){
+    translate('sv', 'lng-tag');
   });
 });
