@@ -25,7 +25,7 @@
 - create a logo
 - create a color theme
 
-- **when index.html is ready**
+### When index.html is ready
 - create sub pages for product categories
 - create contact page and contact form
 - create pricing page
@@ -33,7 +33,7 @@
 - create about page
 - portfolio page: expanding gallery photos (open in a viewer when clicked)
 
-- **when pages are ready**
+### When pages are ready
 - create fi and sv variants of the page
 - connect contact form to a backend
 
