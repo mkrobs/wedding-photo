@@ -2,7 +2,8 @@
 <html>
 <head>
 	<title>Static Photosite</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script type="text/javascript" src="js/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/translate.js"></script>
@@ -15,12 +16,12 @@
             <img src="logo.svg" class="logo" />
             </a>
         </div>
-        <div>
+        <div class="title-element">
             <li class="list-title">
-            <div class="title-element">
+            <div>
                 <h1 class="title"><a href="index.html" class="link-none" lng-tag="title"></a></h1>
             </div>
-            <div class="title-element">
+            <div>
                 <h3 class="title-sub" lng-tag="title-sub"></h3>
             </div>
             </li>
@@ -93,9 +94,32 @@
         </div>
     </div>
 	<footer>
-        <div>
-            <p class="footer-text" lng-tag="footer">copyright</p>
+        <div class="footer-left">
+            <div class="low-menu-lang">
+                <a id="enTranslator" href="javascript:void(0);">EN</a>
+                <a id="fiTranslator" href="javascript:void(0);">FI</a>
+                <a id="svTranslator" href="javascript:void(0);">SV</a>   
+            </div>
+            <div class="low-menu">
+                <a href="portfolio.html" lng-tag="portfolio"></a>
+                <a href="contact.html" lng-tag="contact"></a>
+                <a href="about.html" lng-tag="about"></a>
+                <a href="pricing.html" lng-tag="pricing"></a>
+            </div>
+        </div>    
+        <div">   
         </div>
+        <div class="footer-right">
+            <div class="social">
+                <a href="#" class="fa fa-facebook social-fb"></a>
+                <a href="#" class="fa fa-instagram social-ig"></a>
+            </div>
+            <div>
+                <p lng-tag="footer"></p>
+            </div>
+        </div>
+        
+
     </footer>
 </body>
 </html>

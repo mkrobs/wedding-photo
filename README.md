@@ -18,14 +18,15 @@
 - ~~responsive menu -> becomes hamburger + drop down menu in smaller screensize~~
 - ~~select photos for the home page~~
 
-- add visible titles for photos on homepage
+- [ ] add visible titles for photos on homepage
 - add social media buttons
-- write "about" page text
+- write "about page" text
 - define pricing categories
 - create a logo
 - create a color theme
+- footer contents
 
-### When index.html is ready
+### When index.html is ready:
 - create sub pages for product categories
 - create contact page and contact form
 - create pricing page
@@ -33,8 +34,9 @@
 - create about page
 - portfolio page: expanding gallery photos (open in a viewer when clicked)
 
-### When pages are ready
+### When pages are ready:
 - create fi and sv variants of the page
+- choose default language for the site
 - connect contact form to a backend
 
 ### Before publishing
@@ -46,8 +48,9 @@
 - jumpy menu when navigating
 - ~~menu drops out of the header when resizing~~
 - pontential SEO problem for translated pages (change to website.com/lang)
-- things bounce around in the header when changing language
-- menu switches between icon and text when resizing (not a big issue)
+- things bounce around in the header when changing language (maybe not a problem)
+- ~~menu switches back and forth between icon and text when resizing (not a big issue)~~
+- menu pushes title & menu icon moves when clicked
 
 ## 1. Purpose
 - A website to advertise photography services.
@@ -85,3 +88,7 @@
 - Main brand logo (*.svg)
 - Fonts and titles
 - Color theme (three main colors)
+
+
+# Resources 
+- js language switching: https://nestcode.co/en/blog/using-javascript-to-translate-your-static-website

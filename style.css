@@ -21,14 +21,70 @@ header {
 
 footer {
   background: rgb(202, 202, 202);
-  height: 100px;
+  height: auto;
+  margin-bottom: 10px;
+  padding: 20px 20px;
   display: flex;
-  justify-content: center;
-  margin-top: 40px;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: 'Roboto';
 }
 
+.footer-right {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
 .footer-text {
-  padding: 10px;
+  display:flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+.footer-left {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.social {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.social a {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.social-ig {
+  background: rgb(202, 202, 202);;
+  color: white;
+  border-style: solid;
+}
+
+.social-fb {
+  background: rgb(202, 202, 202);;
+  color: white;
+  border-style: solid;
+}
+
+.low-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; 
+  font-size: 25px;
+}
+
+.low-menu-lang {
+  margin: 5px 0px;
 }
 
 h2 {
@@ -47,7 +103,7 @@ a:visited {
   
 a:hover {
     text-decoration: none;
-    color: rgb(233, 212, 27);
+    color: rgb(81, 169, 228);
   }
   
 a:active {
@@ -155,6 +211,10 @@ a.link-none:hover {
 }
 
 .title-element {
+  margin: 0px, 100px;
+}
+
+.title-element div {
   display: flex;
   align-content: left;
   text-align: left;
@@ -202,7 +262,7 @@ a.link-none:hover {
   display: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .topnav a {display: none;}
   .topnav-space {display:block;}
   .topnav a.icon {
@@ -211,7 +271,7 @@ a.link-none:hover {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -442,9 +502,15 @@ p {
   height: 5px;
   background-color: black;
   margin: 6px 0;
+  
 }
 
-.menu-icon div:hover {
-  background-color: rgb(255, 255, 255);
-
+.menu-icon {
+  width: auto;
+  align-content: center;
 }
+
+.menu-icon:hover {
+  color: rgb(255, 255, 255);
+}
+
