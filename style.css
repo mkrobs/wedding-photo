@@ -366,7 +366,7 @@ a.lang-select {
 }
 
 .sec-photo {
-    margin: 10px 10px 0px 10px;
+    margin: 10px 10px 10px 10px;
     max-width: 100%;
     height: auto;
     position: relative;
@@ -409,7 +409,7 @@ a.lang-select {
 
 
 .sec-photo.last {
-   margin-bottom: 10px;
+   margin-bottom: 20px;
 }
 
 
@@ -418,56 +418,42 @@ a.lang-select {
     max-height: 500px;
     object-fit: contain;
     transition: .5s ease;
+    position: relative;
+    overflow: hidden;
+    float: left;
 }
 
 .big {
-  height: 700px;
+    height: 700px;
 }
 
 p {
     text-align: center;
 }
-
-.overlay {
-    position: absolute;
-    display: inline-block;
-    object-fit: contain;
-    padding: 10px;
-    top: 45%;
-    left: 50%;
-    opacity: 0;
-    transition: .5s ease;
-    
-  }
-
-  .sec-photo:hover .photoframe {
-    opacity: 0.7;
-  }
-  
-  .sec-photo:hover .overlay {
-    opacity: 0.9;
-  }
-
-  .text {
+  .photo-text {
     color: white;
-    background-color: #4177eb;
-    font-size: 16px;
-    padding: 16px 32px;
-    font-size: 20px;
-    position: absolute;
-    display: inline-block;
-    top: 50%;
+    background-color: rgb(164, 164, 164, 0.8);
+    border-style: solid;
+    padding: 25px 50px;
+    font-size: 30px;
+    top: 80%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    object-fit: contain;
+    position: absolute;
     text-align: center;
     cursor: pointer;
+    transition: .5s ease;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%); 
+    transform: translate(-50%,-50%);
   }
 
-  .text:hover {
-    color: #4177eb;
-    background-color: white;
+  .photo-text:hover {
+    color: #ffffff;
+    background-color: rgb(164, 164, 164, 0.5) scale(1.1);
+    -webkit-transform: translate(-50%,-50%) scale(1.1);
+    -ms-transform: translate(-50%,-50%) scale(1.1); 
+    transform: translate(-50%,-50%) scale(1.1);
   }
 
   .home-contact {

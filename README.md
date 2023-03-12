@@ -7,6 +7,27 @@
 - Couple:
 - Event: 
 
+## Styling
+
+### Fonts
+- Title
+- Subtitle
+- Lower Title
+- Menu items
+- Language switcher
+- Footer text
+- Footer menu
+
+- Text
+
+### Colors
+- Text
+- Background
+- Header Background
+- Footer Background
+- Link hover
+- Link hover header
+
 ## To-do
 - [ ] a lot
 - [x] ~~change logo file name~~
@@ -21,7 +42,7 @@
 - [x] ~~social links to footer~~
 
 - [ ] add visible titles for photos on homepage
-- [ ] add social media buttons
+- [x] ~~add social media buttons~~
 - [ ] write "about page" text
 - [ ] define pricing categories
 - [ ] create a logo
@@ -43,7 +64,8 @@
 
 ### Before publishing
 - [ ] clear out unused files
-- [ ] Edit photos in detail and color grade
+- [ ] clean CSS
+- [ ] edit photos in detail and color grade
 
 ## Problems
 - ~~home page photo not resizing / not responsive~~ (background-size: auto)
