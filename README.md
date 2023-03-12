@@ -17,7 +17,6 @@
 - Language switcher
 - Footer text
 - Footer menu
-
 - Text
 
 ### Colors
@@ -40,8 +39,7 @@
 - [x] ~~select photos for the home page~~
 - [x] ~~footer contents~~
 - [x] ~~social links to footer~~
-
-- [ ] add visible titles for photos on homepage
+- [x] ~~add visible titles for photos on homepage~~
 - [x] ~~add social media buttons~~
 - [ ] write "about page" text
 - [ ] define pricing categories
