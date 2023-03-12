@@ -8,40 +8,42 @@
 - Event: 
 
 ## To-do
-- a lot
-- ~~change logo file name~~
-- ~~implement page translation script~~
-- ~~save the language selection for reloading the page~~ (maybe not needed)
-- ~~rename and clean-up css classes~~
-- ~~set lng-tags for home page~~
-- ~~add contact button link on homepage~~
-- ~~responsive menu -> becomes hamburger + drop down menu in smaller screensize~~
-- ~~select photos for the home page~~
+- [ ] a lot
+- [x] ~~change logo file name~~
+- [x] ~~implement page translation script~~
+- [x] ~~save the language selection for reloading the page~~ (maybe not needed)
+- [x] ~~rename and clean-up css classes~~
+- [x] ~~set lng-tags for home page~~
+- [x] ~~add contact button link on homepage~~
+- [x] ~~responsive menu -> becomes hamburger + drop down menu in smaller screensize~~
+- [x] ~~select photos for the home page~~
+- [x] ~~footer contents~~
+- [x] ~~social links to footer~~
 
 - [ ] add visible titles for photos on homepage
-- add social media buttons
-- write "about page" text
-- define pricing categories
-- create a logo
-- create a color theme
-- footer contents
+- [ ] add social media buttons
+- [ ] write "about page" text
+- [ ] define pricing categories
+- [ ] create a logo
+- [ ] create a color theme
+
 
 ### When index.html is ready:
-- create sub pages for product categories
-- create contact page and contact form
-- create pricing page
-- create portfolio page
-- create about page
-- portfolio page: expanding gallery photos (open in a viewer when clicked)
+- [ ] create sub pages for product categories
+- [ ] create contact page and contact form
+- [ ] create pricing page
+- [ ] create portfolio page
+- [ ] create about page
+- [ ] portfolio page: expanding gallery photos (open in a viewer when clicked)
 
 ### When pages are ready:
-- create fi and sv variants of the page
-- choose default language for the site
-- connect contact form to a backend
+- [ ] create fi and sv variants of the page
+- [ ] choose default language for the site
+- [ ] connect contact form to a backend
 
 ### Before publishing
-- clear out unused files
-- Edit photos in detail and color grade
+- [ ] clear out unused files
+- [ ] Edit photos in detail and color grade
 
 ## Problems
 - ~~home page photo not resizing / not responsive~~ (background-size: auto)
