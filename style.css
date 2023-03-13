@@ -24,10 +24,6 @@ footer {
   height: auto;
   margin-bottom: 10px;
   padding: 20px 20px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
   font-family: 'Roboto';
 }
 
@@ -37,11 +33,16 @@ footer p {
   flex-direction: column-reverse;
 }
 
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .footer-right {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%;
 }
 
 
@@ -92,8 +93,6 @@ footer p {
 
 .low-menu-lang {
   margin: 5px 0px;
-  display:flex;
-  justify-content: space-between;
 }
 
 h2 {
@@ -415,7 +414,7 @@ a.lang-select {
 
 .photo-frame {
     max-width: 100%;
-    max-height: 500px;
+    max-height: 667px;
     object-fit: contain;
     transition: .5s ease;
     position: relative;

@@ -45,6 +45,8 @@
 - [ ] define pricing categories
 - [ ] create a logo
 - [ ] create a color theme
+- [ ] replace header title with logo
+- [ ] move header title to header hero
 
 
 ### When index.html is ready:
@@ -89,10 +91,16 @@
 
 ### 2.2 Menu Items
 - Home (logo & title)
-- Portfolio ... (wedding, couples, portraits, events)
-- Pricing
+- wedding, couples, portraits, events)
 - About
 - Contact
+
+### 2.3 Wedding Page
+- Large photos
+- Gallery with small images
+- Some descriptions
+- Pricing
+- Contact & CTA
 
 ## 3. Specifications
 ### 3.1 Main Specifications
